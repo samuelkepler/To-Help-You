@@ -1,0 +1,17 @@
+.border-menu-bt{
+    width: auto;
+    height: auto;
+    border-width: 2px;
+    border-color: #FFC726;
+    border-style: solid;
+    display: inline-block
+   }
+
+   .pink-letter-color{
+    color: #FF4DB8;
+    
+}
+
+.black-letter-color{
+    color: #323232;
+}
