@@ -4,102 +4,96 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Login </title>
+    <title>LoginTeste </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="componentes/css/Login.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body style="background-image: linear-gradient(-90deg, rgb(187, 62, 89),#4d0ca1 )">
 
-    <header>
+<body style=>
+
+
+    <header class="pt-2">
         <!-- div que abraça o menu -->
 
-        <div class="p-1">
+        <!-- <barra de navegação> -->
+        <nav class="p-3 space container">
 
-            <!-- <barra de navegação> -->
-            <nav>
 
-                <section class="space container" style="padding: 2px;   ">
 
-                    <ul class="nav justify-content-end space-bteween">
+            <ul class="nav justify-content-end ">
 
-                        <li class="nav-item p-1 ">
-                            <a class="nav-link pink-letter-color border-menu-bt"
-                                href="file:///C:/Users/FAMILIA%20SUD/Documents/To%20Help%20You/Home.html"
-                                style=" border-radius: 30px; padding: 5px ">Learn More</a>
-                        </li>
+                <li class="nav-item p-1 ">
+                    <a class="nav-link pink-letter-color border-menu-bt"
+                        href="file:///C:/Users/FAMILIA%20SUD/Documents/To%20Help%20You/Home.html"
+                        style=" border-radius: 30px; padding: 5px ">Learn More</a>
+                </li>
 
-                    </ul>
+            </ul>
 
-                </section>
 
-            </nav>
 
-        </div>
+        </nav>
+
 
     </header>
 
 
-    <div class="container correcao  p-3 mb-5 ">
+    <section class="bg-white container" >
 
-        <section>
+        <div class=" pt-5">
+            <h1 class="title-login  ">Login</h1>
+
+            <h6 class=" subTitleLogin  " style="display: flex; justify-content: center;">bem vindo ao To Help You !
+                Faça seu login e divirta-se
+            </h6>
+        </div>
 
 
-            <div class="  container  bg-white rounded  pt-5 ">
+        <div style="display: flex; justify-content: center;">
 
-                <!-- Default form login -->
-                <form class="text-center box-login  " action="#!" >
+            <form class="container bg-white pt-3 " style="height: 400px; width:600px">
 
-                    <h2 class="title-login h1 mb-4">Login</h2>
+                <!-- Email -->
+                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
-                    <h1 class=" subTitleLogin h6 mb-4">bem vindo ao To Help You ! Faça seu login e divirta-se </h1>
+                <!-- Password -->
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
 
-                    <!-- Email -->
-                    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-                    <!-- Password -->
-                    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4"
-                        placeholder="Password">
-
-                    <div class="d-flex justify-content-around">
-                        <div>
-                            <!-- Remember me -->
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                                <label class="custom-control-label" for="defaultLoginFormRemember">Remember
-                                    me</label>
-                            </div>
-                        </div>
-                        <div>
-                            <!-- Forgot password -->
-                            <a href="">Forgot password?</a>
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <!-- Remember me -->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                            <label class="custom-control-label" for="defaultLoginFormRemember">Remember
+                                me</label>
                         </div>
                     </div>
+                    <div>
+                        <!-- Forgot password -->
+                        <a href="">Forgot password?</a>
+                    </div>
+                </div>
 
-                    <!-- Sign in button -->
-                      <a href="Cadastro.html" target="_blank" class="btn btn-outline-light btn-block my-4" type="submit"
-                      style="background-image: linear-gradient(-90deg, #D279CB, #FF6EA9)" >Sign in </a>
+                <!-- Sign in button -->
+                <button href="Cadastro.html" target="_blank" class="btn btn  btn-block my-4" type="submit"
+                    style="background-image: linear-gradient(-90deg, #D279CB, #FF6EA9); color: #ffffff;"> Sign in
+                </button>
 
-                    <!-- Register -->
-                    <p>Not a member?
-                        <a href="">Register</a>
-                    </p>
+                <!-- Register -->
+                <p>Not a member?
+                    <a href="">Register</a>
+                </p>
 
-                </form>
-                <!-- Default form login -->
+            </form>
 
-            </div>
+        </div>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
 
 </body>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
-  <script src="componentes/js/app.js"></script>
-  <script src="componentes/js/home.js"></script>
 
 </html>
