@@ -13,54 +13,55 @@
 
 
 
-<body style="background-image: linear-gradient(-90deg, rgb(187, 62, 89),#4d0ca1 )">
+<body>
 
-    <header>
-        <div>
-            <nav class="navbar ">
+    <!-- style="background-image: linear-gradient(-90deg, rgb(187, 62, 89),#4d0ca1 )" -->
 
-                <form class="form-inline ">
-                    <input style="width: 500px;" class="form-control mr-sm-2" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success my-sm-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </nav>
-        </div>
+    <header class=" p-4">
+
+
+
+        <nav class="navbar  " style="display: flex; justify-content:center;">
+            <form class="form-inline col-lg-auto">
+                <input style="width:80vh;" id="search-video" class="form-control mr-sm-2 " type="search-video"
+                    placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </nav>
+
 
     </header>
 
-    <div class="contianer" style="height: 700px;  width: 500px;" >
 
-        <div class="card" style="display: flexbox; justify-content: center;"  >
 
-            <iframe class="video" src="https://www.youtube.com/embed/R0S4zTGdszk" style= "height: 300px; width: 100%;" frameborder="0"
+
+
+    <section class="card container p-1 ">
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="video embed-responsive-item " src="https://www.youtube.com/embed/R0S4zTGdszk" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="card-body" style="height: auto ;">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore asperiores
-                    facere impedit eveniet, esse explicabo, nam inventore aspernatur deserunt quae, pariatur quibusdam
-                    laboriosam? Alias dolores modi voluptatum reiciendis molestiae?
-                    Provident aperiam minus quasi nihil debitis. Explicabo itaque, velit nemo corrupti molestias vero
-                    suscipit sequi quo hic dolorum cupiditate quaerat consectetur ut? Omnis ullam, nobis atque placeat
-                    ipsum inventore eveniet.
-
-                    Cumque cum numquam ex animi odit sequi temporibus itaque libero beatae soluta recusandae eaque
-                    s.</p>
-
-                <div class="container  p-3 mb-5  rounded ">
-                    <form class="form-inline ">
-                        <input style="width: 900px;" class="form-control mr-sm-2" type="search" placeholder="Search"
-                            aria-label="">
-                    </form>
-
-                </div>
-
-
-            </div>
-
         </div>
 
-    </div>
+
+        <div class="card-body" style="height: auto ;">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore asperiores
+                facere impedit eveniet, esse explicabo, nam inventore aspernatur deserunt quae, pariatur quibusdam
+                laboriosam? Alias dolores modi voluptatum reiciendis molestiae?
+                Provident aperiam minus quasi nihil debitis. Explicabo itaque, velit nemo corrupti molestias vero
+                suscipit sequi quo hic dolorum cupiditate quaerat consectetur ut? Omnis ullam, nobis atque placeat
+                ipsum inventore eveniet.
+
+                Cumque cum numquam ex animi odit sequi temporibus itaque libero beatae soluta recusandae eaque
+                s.
+            </p>
+
+        </div>
+    </section>
+
+
 
 
 
